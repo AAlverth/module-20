@@ -224,6 +224,32 @@ body {
   .carousel .slide {
     margin: 50px;
   }
+
+  .jumbotron{
+    background-image: url(../images/touristjumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  
+  .jumboCopy {
+    width: 90%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+  }
+  
+  
+
+
  
   $carousel-control-color:             $white;
   $carousel-control-width:             15%;
