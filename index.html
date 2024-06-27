@@ -16,6 +16,16 @@
     <title>ashley alverth portfolio </title>
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-43P202B5NB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-43P202B5NB');
+</script>
+
 </head>
 
  <!--header -->
@@ -41,11 +51,13 @@
   <header>
      <!--A navigation menu containing the different phases of this project.-->
     <nav>
-      <logo><img src="Images/logo+name.png"> </logo>
+      <logo><img src="Images/logo+name.png"> 
+        <a href="//aalverth.github.io/module-19/"></a>
+      </logo>
       <ul class="right-container">
-        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a onclick="document.location='//aalverth.github.io/module-19/'"></a> Home</a></li>
         <li class="dropdown nav-item">
-          <a href="">Projects</a>
+          <a href=" ">Projects</a>
           <ul class="dropdown-menu">
             <li><a href="" class="dropdown-item">Tourist Incognito</a></li>
             <li><a href="" class="dropdown-item">Chicago Housing Authority</a></li>
@@ -63,11 +75,17 @@
  
      <!--A section introducing the business or product the case study was conducted on.-->
      <h3>Tourist Incognito</h3>
-     <p> discriptor text here </p>
-
-     <!--The research you conducted to uncover the problem statement.-->
+     <p> This app was inspired by a discussion based around travel and traveling alone. Amidst this conversation, I realized that safety was a concern for most of the people I interviewed. Understanding why & what people did to provide themselves with a sense of security, became the driving force behind this design. </p>
+   <!--The research you conducted to uncover the problem statement.-->
      <h3>Research</h3>
-     <p> discriptor text here </p>
+     <p> "User interviews will be conducted for the collection of qualitative data from our participants. Physical interviews will be conducted and recorded person. Data collection will last for about a week.
+      Our ideal participant is someone who travels consistently and has concerns about personal safety while exploring new places.
+     <p> Research questions :</p>
+      <p>What tools can we provide to help travelers feel safer? </p> 
+      <p> What elements do we need to provide tips and tricks?   </p>
+      <p> What type pf people will use this application?   </p>
+      <p>How do we provide security notifications?   </p>
+      " </p>
 
      <div class="carousel slide">
       <div class="carousel-indicators">
@@ -77,13 +95,43 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src=" Images/tourist _Page_03.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Images/tourist _Page_04.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Images/tourist _Page_05.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+     <!--The problem statement that you uncovered with your research.-->
+     <h3>The Problem </h3>
+     <p> Women and LGBTQIA+ individuals Traveling solo lack access to reliable and consistent information regarding their destinations , leading to heightened concerns about safety and a lack of informed decision-making while exploring unfamiliar cities.</p>
+     
+     <div class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src=" Images/tourist _Page_08.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src=" Images/tourist _Page_09.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -96,11 +144,50 @@
       </button>
     </div>
 
-     <!--The problem statement that you uncovered with your research.-->
-     <h3>The Problem </h3>
-     <p> discriptor text here </p>
-     
-     <div class="carousel slide">
+    <!--ideation-->
+    <h3>Ideation</h3>
+    <p> During the ideation phase, we brainstormed features that would directly address these concerns. Key features include 
+      Safety Ratings: User-generated safety ratings and reviews of neighborhoods, accommodations, and attractions, specifically focusing on experiences of Women and LGBTQIA+ travelers.
+       Real-Time Alerts: Location-based safety alerts and updates to inform users of potential risks or changes in their surroundings.
+       Community Support: A built-in community forum where users can connect, share experiences, and provide recommendations to fellow travelers. 
+      Verified Resources: Curated lists of LGBTQIA+ friendly and women-focused businesses, services, and emergency contacts vetted by local experts. 
+      Personalized Itineraries: Customizable travel itineraries based on user preferences and safety considerations. By leveraging both technology and community insights, our app aims to empower solo travelers with the information they need to explore new destinations confidently and safely.
+      </p>
+
+         <div class="carousel slide">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     </div>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src=" Images/tourist _Page_11.jpg" class="d-block w-100" alt="...">
+       </div>
+       <div class="carousel-item">
+         <img src=" Images/tourist _Page_12.jpg" class="d-block w-100" alt="...">
+       </div>
+       <div class="carousel-item">
+         <img src=" Images/tourist _Page_13.jpg" class="d-block w-100" alt="...">
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+
+     <!--The prototype that solved your initial problem statement. -->
+     <h3>Prototype</h3>
+     <p> In developing a travel app that addresses the unique safety and information needs of Women and LGBTQIA+ solo travelers, our prototyping process plays a crucial role in ensuring the app's usability and effectiveness. We created interactive prototypes to visualize and refine key features, incorporating user feedback at each stage.
+      By focusing on a user-centered prototyping process, we ensured that the travel app is intuitive, responsive, and meets the specific needs of Women and LGBTQIA+ solo travelers. This iterative approach not only refined the app's design but also validated its functionality and effectiveness, laying a strong foundation for the development phase.
+       </p>
+
+          <div class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -108,13 +195,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Images/tourist _Page_16.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Images/tourist _Page_17.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Images/tourist _Page_18.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -129,7 +216,8 @@
 
      <!--How you iterated on your work based on testing.-->
      <h3>Iterations</h3>
-     <p> discriptor text here </p>
+     <p> When testing the app we were testing to see how the users moved through the app and if the UI design created any unnecessary difficulty. the testing results came back with small visual changes but with a mostly positive response and a general appreciation for the concept.
+    </p>
 
           <div class="carousel slide">
       <div class="carousel-indicators">
@@ -139,13 +227,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src=" Images/tourist _Page_20.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src=" Images/tourist _Page_21.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src=" Images/tourist _Page_22.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -158,11 +246,12 @@
       </button>
     </div>
 
-     <!--The prototype that solved your initial problem statement. -->
-     <h3>Prototype</h3>
-     <p> discriptor text here </p>
+       <!--conclusions-->
+       <h3>Conclusions</h3>
+       <p> In conclusion, I am proud of the concept and the potential of the app and think that with a few changes, it could be a very useful tool for the solo traveler. a potential change may be to add a subscription-based paywall to generate income and provide the users with a feeling of exclusivity.
+      </p>
 
-          <div class="carousel slide">
+    <div class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -170,28 +259,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src=" Images/tourist _Page_24.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    
   </body>
   </html>
    <!--scripts-->
  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
