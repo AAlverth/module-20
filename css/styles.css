@@ -225,14 +225,23 @@ body {
     margin: 50px;
   }
 
-  .jumbotron{
-    background-image: url(../images/touristjumbo.jpg);
+  .jumbotron  .jumbotron2{
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     display: flex;
     align-items: left;
     justify-content: left;
+  }
+  .jumbotron{
+    background-image: url(../images/touristjumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .jumbotron2{
+    background-image: url(../images/diamond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .jumboCopy {
